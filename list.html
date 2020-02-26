@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>Esthana - House Rent</title>
+	<link rel="icon" href="assets/images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<div class="container-fluid bg-white" id="navbar">
+	<div class="row">
+		<div class="section font-purple-darken">
+			<div class="col-md-2 col-xs-8"><a href="index.html"><img src="assets/images/logo.png" width="100%"></a></div>
+			<div class="col-xs-4 toggle text-right"><button class="btn btn-default btn-lg" id="btn-toggle"><i class="fa fa-bars"></i></button></div>
+			<div class="col-md-10 col-xs-12 font-sm font-medium text-right">
+				<ul>
+					<li class="hvr-underline-from-left"><a href="list.html">HOUSE</a></li>
+					<li class="hvr-underline-from-left"><a href="list.html">APARTMENT</a></li>
+					<li class="hvr-underline-from-left"><a href="list.html">VILLA</a></li>
+					<li class="hvr-underline-from-left"><a href="about.html">ABOUT US</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#login" class="btn bg-purple btn-sm">LOGIN</a></li>
+					<li><a href="#" class="btn btn-default btn-sm">REGISTER</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- NAVBAR END -->
+<!-- MAIN CONTENT -->
+<div class="container-fluid">
+	<!-- HEADER -->
+	<div class="row bg-img listing-header" id="header">
+		<div class="section">
+			<div class="col-md-12 bg-white font-black">
+				<form class="form-inline" method="post" action="list.html">
+					<select class="form-control input-lg">
+						<option>-- Type --</option>
+						<option>House</option>
+						<option>Apartment</option>
+						<option>Villa</option>
+						<option>Other</option>
+					</select>
+					<select class="form-control input-lg">
+						<option>-- City --</option>
+						<option>Batu</option>
+						<option>Blitar</option>
+						<option>Kediri</option>
+						<option>Malang</option>
+						<option>Pasuruan</option>
+						<option>Probolinggo</option>
+						<option>Surabaya</option>
+					</select>
+					<input type="text" class="form-control input-lg" placeholder="Search Keyword..">
+					<input type="submit" value="SEARCH" class="btn bg-purple btn-lg">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- HEADER END -->
+	<!-- LISTING -->
+	<div class="row" id="listing">
+		<div class="section">
+			<div class="col-md-12 text-center">
+				<h3 class="font-purple font-bold font-lg">Property Listing</h3>
+				<p class="font-medium font-md">Arcu risus quis varius quam quisque id.</p><br>
+			</div>
+			<div class="col-md-4">
+				<div class="list-panel">
+					<div class="list-panel-head bg-img font-white" style="background-image: url(assets/images/listing/1.jpg);">
+						<div>
+							<h4 class="font-bold font-md">Agatha House</h4>
+							<p class="font-sm"><i class="fa fa-map-marker"></i> Ketintang, Surabaya</p>
+						</div>
+					</div>
+					<div class="list-panel-body bg-white">
+						<span class="badge badge-dark">$300/month</span> 
+						<span class="badge badge-dark">3 Bedrooms</span> 
+						<span class="badge badge-dark">Parking Area</span> 
+						<span class="badge badge-dark">Pet OK</span>
+					</div>
+					<div class="list-panel-foot">
+						<a href="detail.html" class="btn bg-purple btn-block btn-sm"><i class="fa fa-caret-right"></i> VIEW MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="list-panel">
+					<div class="list-panel-head bg-img font-white" style="background-image: url(assets/images/listing/2.jpg);">
+						<div>
+							<h4 class="font-bold font-md">Leblanc Homestay</h4>
+							<p class="font-sm"><i class="fa fa-map-marker"></i> Lowokwaru, Malang</p>
+						</div>
+					</div>
+					<div class="list-panel-body bg-white">
+						<span class="badge badge-dark">$300/month</span> 
+						<span class="badge badge-dark">3 Bedrooms</span> 
+						<span class="badge badge-dark">Parking Area</span> 
+						<span class="badge badge-dark">Pet OK</span>
+					</div>
+					<div class="list-panel-foot">
+						<a href="detail.html" class="btn bg-purple btn-block btn-sm"><i class="fa fa-caret-right"></i> VIEW MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="list-panel">
+					<div class="list-panel-head bg-img font-white" style="background-image: url(assets/images/listing/3.jpg);">
+						<div>
+							<h4 class="font-bold font-md">Conan Doyle Villa</h4>
+							<p class="font-sm"><i class="fa fa-map-marker"></i> Nongkojajar, Pasuruan</p>
+						</div>
+					</div>
+					<div class="list-panel-body bg-white">
+						<span class="badge badge-dark">$300/month</span> 
+						<span class="badge badge-dark">3 Bedrooms</span> 
+						<span class="badge badge-dark">Parking Area</span> 
+						<span class="badge badge-dark">Pet OK</span>
+					</div>
+					<div class="list-panel-foot">
+						<a href="detail.html" class="btn bg-purple btn-block btn-sm"><i class="fa fa-caret-right"></i> VIEW MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="list-panel">
+					<div class="list-panel-head bg-img font-white" style="background-image: url(assets/images/listing/4.jpg);">
+						<div>
+							<h4 class="font-bold font-md">Aoyama Herritage</h4>
+							<p class="font-sm"><i class="fa fa-map-marker"></i> Prambon, Sidoarjo</p>
+						</div>
+					</div>
+					<div class="list-panel-body bg-white">
+						<span class="badge badge-dark">$300/month</span> 
+						<span class="badge badge-dark">3 Bedrooms</span> 
+						<span class="badge badge-dark">Parking Area</span> 
+						<span class="badge badge-dark">Pet OK</span>
+					</div>
+					<div class="list-panel-foot">
+						<a href="detail.html" class="btn bg-purple btn-block btn-sm"><i class="fa fa-caret-right"></i> VIEW MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="list-panel">
+					<div class="list-panel-head bg-img font-white" style="background-image: url(assets/images/listing/5.jpg);">
+						<div>
+							<h4 class="font-bold font-md">House of Chandler</h4>
+							<p class="font-sm"><i class="fa fa-map-marker"></i> Sukolilo, Surabaya</p>
+						</div>
+					</div>
+					<div class="list-panel-body bg-white">
+						<span class="badge badge-dark">$300/month</span> 
+						<span class="badge badge-dark">3 Bedrooms</span> 
+						<span class="badge badge-dark">Parking Area</span> 
+						<span class="badge badge-dark">Pet OK</span>
+					</div>
+					<div class="list-panel-foot">
+						<a href="detail.html" class="btn bg-purple btn-block btn-sm"><i class="fa fa-caret-right"></i> VIEW MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="list-panel">
+					<div class="list-panel-head bg-img font-white" style="background-image: url(assets/images/listing/6.jpg);">
+						<div>
+							<h4 class="font-bold font-md">Brown Street D16</h4>
+							<p class="font-sm"><i class="fa fa-map-marker"></i> Pandaan, Pasuruan</p>
+						</div>
+					</div>
+					<div class="list-panel-body bg-white">
+						<span class="badge badge-dark">$300/month</span> 
+						<span class="badge badge-dark">3 Bedrooms</span> 
+						<span class="badge badge-dark">Parking Area</span> 
+						<span class="badge badge-dark">Pet OK</span>
+					</div>
+					<div class="list-panel-foot">
+						<a href="detail.html" class="btn bg-purple btn-block btn-sm"><i class="fa fa-caret-right"></i> VIEW MORE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- LISTING END -->
+	<!-- FOOTER -->
+	<div class="row bg-purple-darken font-white" id="footer">
+		<div class="section">
+			<div class="col-md-5">
+				<img src="assets/images/logo-light.png" width="50%"><br><br>
+				<p class="font-sm font-medium"><i class="fa fa-map-marker"></i> Jl. Gajah Mada No. 01, Nongkojajar, Pasuruan</p>
+				<p class="font-sm font-medium"><i class="fa fa-envelope"></i> inbox@esthana.co.id</p>
+				<p class="font-sm font-medium"><i class="fa fa-phone"></i> (+62) 822 4584 9926</p><br>
+				<a href="#" class="follow hvr-rectangle-out"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="#" class="follow hvr-rectangle-out"><i class="fa fa-facebook fa-2x"></i></a>
+				<a href="#" class="follow hvr-rectangle-out"><i class="fa fa-twitter fa-2x"></i></a>
+				<a href="#" class="follow hvr-rectangle-out"><i class="fa fa-google-plus fa-2x"></i></a>
+			</div>
+			<div class="col-md-7">
+				<h2 class="font-bold font-lg">About Us</h2>
+				<section class="line"></section>
+				<p class="font-medium font-sm">Esthana House Rent is a house rent service based in East Java, Indonesia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis convallis convallis tellus id interdum.</p>
+				<a href="about.html" class="btn btn-default font-purple"><i class="fa fa-caret-right"></i> Read More</a>
+			</div>
+			<div class="col-md-12 text-center">
+				<hr>
+			</div>
+			<div class="col-md-6">
+				<b>Copyright &copy; Esthana - House Rent HTML Template.</b>
+			</div>
+			<div class="col-md-6 text-right">
+				<b>Created by <a href="http://instagram.com/esafriansya/"><u>Esafriansya</u></a> with <i class="fa fa-heart"></i></b>
+			</div>
+		</div>
+	</div>
+	<!-- FOOTER END -->
+</div>
+<!-- MAIN CONTENT END -->
+
+<!-- LOGIN MODAL -->
+<form class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-purple text-white"> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel"><i class="fa fa-user"></i> Login</h3>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="search_keyword" class="form-control" placeholder="Username" autofocus=""><br>
+        <input type="password" name="search_keyword" class="form-control" placeholder="Password" autofocus=""><br>
+        <input type="submit" class="btn btn-block bg-purple" value="LOGIN" name=""><br>
+        <center>OR</center><br>
+        <button class="btn btn-default btn-block"><i class="fa fa-google font-purple-darken"></i> &nbsp; Sign In with Google</button>
+      </div>
+    </div>
+  </div>
+</form>
+<!-- LOGIN MODAL END -->
+
+<!-- BACK TO TOP -->
+	<a href="#header" id="backtotop" class="bg-purple"><i class="fa fa-chevron-up fa-2x"></i></a>
+<!-- BACK TO TOP END -->
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/global.js"></script>
+<link rel="stylesheet" type="text/css" href="">
+</body>
+</html>
